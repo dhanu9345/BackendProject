@@ -1,4 +1,4 @@
-let User = require("../models/User");
+let User = require("../models/user");
 
 let loginStatus = async (req, res) => {
     try {
