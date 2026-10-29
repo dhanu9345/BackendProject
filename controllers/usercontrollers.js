@@ -1,4 +1,4 @@
-let User = require("../models/User.js");
+let User = require("../models/user.js");
 let bcrypt=require("bcrypt")
 let register = async (req, res) => {
     try {
